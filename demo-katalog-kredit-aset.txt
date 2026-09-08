@@ -1,0 +1,287 @@
+KREDIT ASET KATALOG CONTOH WEBSITE
+
+Foto stok untuk ilustrasi, bukan dokumentasi perusahaan.
+
+pengadaan.jpg - disalin dari aset website cv-multi-usaha-mandiri
+Kredit dan Lisensi AsetKembali ke BerandaKredit dan Lisensi AsetFoto merupakan ilustrasi, bukan dokumentasi proyek perusahaan. Hak cipta tetap pada pemilik masing-masing.# Image credits
+All photos sourced from Unsplash and used under the Unsplash License: https://unsplash.com/license . Photographs illustrate industries and working environments, not actual completed company projects.
+- Haris Illahi, Tanjung Priok port: https://unsplash.com/photos/ip0yX8W1veE
+- Adrian Sulyok, warehouse: https://unsplash.com/photos/c_4eaGRDSVU
+- Danist Soh, construction: https://unsplash.com/photos/8Gg2Ne_uTcM
+- Taylor Vick, server infrastructure: https://unsplash.com/photos/M5tzZtFCOfs
+- Annie Spratt, team: https://unsplash.com/photos/sggw4-qDD54
+- Nastuh Abootalebi, office: https://unsplash.com/photos/JdcJn85xD2k
+- Luca Bravo, development laptop: https://unsplash.com/photos/XJXWbfSo2f0
+Images in this static package are stored locally, with explicit dimensions and lazy loading except above-the-fold images.
+Lucide / Feather iconsISC License
+Copyright (c) 2026 Lucide Icons and Contributors
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+---
+The following Lucide icons are derived from the Feather project:
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+The MIT License (MIT) (for the icons listed above)
+Copyright (c) 2013-present Cole Bemis
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Tailwind CSSMIT License
+Copyright (c) Tailwind Labs, Inc.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Shadcn stylesheetMIT License
+Copyright (c) 2023 shadcn
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Design By CV MULTI USAHA MANDIRI
+
+teknologi.jpg - disalin dari aset website pt-dirac-inovasi-nusantara
+Kredit dan Lisensi AsetKembali ke BerandaKredit dan Lisensi AsetFoto merupakan ilustrasi, bukan dokumentasi proyek perusahaan. Hak cipta tetap pada pemilik masing-masing.# Image credits
+All photos sourced from Unsplash and used under the Unsplash License: https://unsplash.com/license . Photographs illustrate industries and working environments, not actual completed company projects.
+- Haris Illahi, Tanjung Priok port: https://unsplash.com/photos/ip0yX8W1veE
+- Adrian Sulyok, warehouse: https://unsplash.com/photos/c_4eaGRDSVU
+- Danist Soh, construction: https://unsplash.com/photos/8Gg2Ne_uTcM
+- Taylor Vick, server infrastructure: https://unsplash.com/photos/M5tzZtFCOfs
+- Annie Spratt, team: https://unsplash.com/photos/sggw4-qDD54
+- Nastuh Abootalebi, office: https://unsplash.com/photos/JdcJn85xD2k
+- Luca Bravo, development laptop: https://unsplash.com/photos/XJXWbfSo2f0
+Images in this static package are stored locally, with explicit dimensions and lazy loading except above-the-fold images.
+Lucide / Feather iconsISC License
+Copyright (c) 2026 Lucide Icons and Contributors
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+---
+The following Lucide icons are derived from the Feather project:
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+The MIT License (MIT) (for the icons listed above)
+Copyright (c) 2013-present Cole Bemis
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Tailwind CSSMIT License
+Copyright (c) Tailwind Labs, Inc.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Shadcn stylesheetMIT License
+Copyright (c) 2023 shadcn
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Design By CV MULTI USAHA MANDIRI
+
+interior.webp - disalin dari aset website cv-multi-usaha-mandiri-interior
+KREDIT DAN LISENSI ASET - CV MULTI USAHA MANDIRI
+
+Foto stok hanya untuk ilustrasi, bukan proyek, lokasi, klien, atau tim perusahaan sebenarnya.
+Semua foto berikut: Unsplash License, diverifikasi 8 September 2026.
+Lisensi: https://unsplash.com/license
+Foto boleh digunakan untuk website komersial sesuai lisensi, bukan dijual ulang tanpa modifikasi bermakna atau dihimpun untuk meniru layanan Unsplash.
+
+File: mum-interior-home.webp dan mum-interior-home-640.webp
+Fotografer: Zac Gudakov
+Sumber: https://unsplash.com/photos/living-room-with-grey-velvet-sofas-mw_mj-noYHM
+Unduhan sumber: https://images.unsplash.com/photo-1628744876497-eb30460be9f6
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: mum-interior-office.webp dan mum-interior-office-640.webp
+Fotografer: Caroline Badran
+Sumber: https://unsplash.com/photos/modern-office-interior-with-glass-walls-and-plants-B74lBYC3PXI
+Unduhan sumber: https://images.unsplash.com/photo-1765371514743-45bd8e6c0a28
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: mum-interior-hotel.webp dan mum-interior-hotel-640.webp
+Fotografer: Antonio Araujo
+Sumber: https://unsplash.com/photos/a-well-lit-hotel-room-with-seating-and-a-desk-xQbmc2FnK3Y
+Unduhan sumber: https://images.unsplash.com/photo-1776763018821-8feeaeeee0a5
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: mum-interior-restaurant.webp dan mum-interior-restaurant-640.webp
+Fotografer: Pavel Gromov
+Sumber: https://unsplash.com/photos/sophisticated-restaurant-interior-with-dining-tables-booths-and-a-palm-B6tC4qEXuyo
+Unduhan sumber: https://images.unsplash.com/photo-1782714074903-1c5bfa8f3497
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: mum-interior-detail.webp dan mum-interior-detail-640.webp
+Fotografer: Kevin Shek
+Sumber: https://unsplash.com/photos/a-close-up-of-a-wooden-table-top-cRFRdyOKBj4
+Unduhan sumber: https://images.unsplash.com/photo-1684846100473-f08fc22f5286
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: mum-interior-retail.webp dan mum-interior-retail-640.webp
+Fotografer: Clark Street Mercantile
+Sumber: https://unsplash.com/photos/clothing-boutique-interior-with-hanging-racks-qnKhZJPKFD8
+Unduhan sumber: https://images.unsplash.com/photo-1441984904996-e0b6ba687e04
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+FONT
+DM Sans Project Authors, SIL Open Font License 1.1.
+Sumber: https://github.com/google/fonts/tree/main/ofl/dmsans
+Teks lisensi: dm-sans-OFL.txt
+Cormorant Project Authors, SIL Open Font License 1.1.
+Sumber: https://github.com/google/fonts/tree/main/ofl/cormorantgaramond
+Teks lisensi: cormorant-garamond-OFL.txt
+
+IKON DAN IDENTITAS
+Logo geometris, favicon, dan ikon antarmuka dibuat khusus untuk demo ini. Tidak menggunakan identitas klien nyata.
+Kode dan naskah halaman dibuat khusus untuk paket portfolio CV MULTI USAHA MANDIRI.
+
+
+konsultan.webp - disalin dari aset website pt-dirac-inovasi-nusantara-konsultan
+KREDIT DAN LISENSI ASET - PT DIRAC INOVASI NUSANTARA
+
+Foto stok hanya untuk ilustrasi, bukan proyek, lokasi, klien, atau tim perusahaan sebenarnya.
+Semua foto berikut: Unsplash License, diverifikasi 8 September 2026.
+Lisensi: https://unsplash.com/license
+Foto boleh digunakan untuk website komersial sesuai lisensi, bukan dijual ulang tanpa modifikasi bermakna atau dihimpun untuk meniru layanan Unsplash.
+
+File: dirac-consulting-meeting.webp dan dirac-consulting-meeting-640.webp
+Fotografer: Dylan Gillis
+Sumber: https://unsplash.com/photos/people-sitting-on-chair-in-front-of-table-while-holding-pens-during-daytime-KdeqA3aTnBY
+Unduhan sumber: https://images.unsplash.com/photo-1517048676732-d65bc937f952
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: dirac-consulting-workshop.webp dan dirac-consulting-workshop-640.webp
+Fotografer: Campaign Creators
+Sumber: https://unsplash.com/photos/man-standing-in-front-of-people-sitting-beside-table-with-laptop-computers-gMsnXqILjp4
+Unduhan sumber: https://images.unsplash.com/photo-1542744173-8e7e53415bb0
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: dirac-consulting-research.webp dan dirac-consulting-research-640.webp
+Fotografer: Compagnons
+Sumber: https://unsplash.com/photos/two-people-collaborating-on-a-whiteboard-with-notes-EPdKKb-hflg
+Unduhan sumber: https://images.unsplash.com/photo-1759884247160-27b8465544b6
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: dirac-consulting-operations.webp dan dirac-consulting-operations-640.webp
+Fotografer: Headway
+Sumber: https://unsplash.com/photos/person-gesturing-during-meeting-with-laptop-5QgIuuBxKwM
+Unduhan sumber: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: dirac-consulting-strategy.webp dan dirac-consulting-strategy-640.webp
+Fotografer: Scott Graham
+Sumber: https://unsplash.com/photos/person-holding-pencil-near-laptop-computer-5fNmWej4tAA
+Unduhan sumber: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+File: dirac-consulting-team.webp dan dirac-consulting-team-640.webp
+Fotografer: Annie Spratt
+Sumber: https://unsplash.com/photos/group-of-people-using-laptop-computer-QckxruozjRg
+Unduhan sumber: https://images.unsplash.com/photo-1522071820081-009f0129c71c
+Lisensi: https://unsplash.com/license
+Pemrosesan: ukuran diperkecil, format WebP.
+
+FONT
+DM Sans Project Authors, SIL Open Font License 1.1.
+Sumber: https://github.com/google/fonts/tree/main/ofl/dmsans
+Teks lisensi: dm-sans-OFL.txt
+
+IKON DAN IDENTITAS
+Logo geometris, favicon, dan ikon antarmuka dibuat khusus untuk demo ini. Tidak menggunakan identitas klien nyata.
+Kode dan naskah halaman dibuat khusus untuk paket portfolio CV MULTI USAHA MANDIRI.
+
+
+DM Sans Project Authors, SIL Open Font License 1.1. Teks lisensi disertakan sebagai dm-sans-OFL.txt.
+Favicon katalog dibuat untuk portfolio ini.

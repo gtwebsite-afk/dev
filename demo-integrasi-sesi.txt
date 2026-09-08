@@ -1,0 +1,22 @@
+INTEGRASI SESI WEBSITE.HTML
+
+Tujuan integrasi ini adalah memakai mekanisme akun milik situs yang sudah dirujuk oleh parfum(3).html. Tidak ada kredensial atau token autentikasi baru dalam paket.
+
+Kontrak respons sesi yang dipertahankan:
+GET /api/health?action=domain_dashboard_me pada origin API yang ditentukan DiracRoutes, memakai credentials include, cache no-store, dan tanpa mengikuti redirect.
+Respons harus berhasil secara HTTP dan JSON berisi ok=true, dashboard=true, user dengan id atau email, mfa.active=true, serta session.expiresAtMs berupa bilangan bulat aman dengan waktu kedaluwarsa di masa depan. Masa berlaku yang lebih awal tetap dihormati.
+Pengendali acuan mengulangi pemeriksaan pada siklus halaman/fokus, menggunakan batas tidak aktif 15 menit, dan menjalankan prosedur logout backend yang sudah tersedia. CSRF dan page nonce tetap dikelola oleh jembatan acuan.
+
+Adapter katalog:
+- HTML awal hidden dan inert.
+- Penanda sesi hanya ditulis pengendali verifikasi asli.
+- Katalog terbuka setelah penanda sesi verified tersedia dan seluruh status locked/checking selesai.
+- Katalog ditutup saat pagehide serta ketika pemeriksaan/penguncian aktif kembali.
+- Tidak ada mode demo untuk melewati login, token dalam URL, atau akses berdasarkan flag localStorage.
+
+Batas dan pekerjaan hosting:
+Penguncian UI tidak mengubah otorisasi pengiriman file statis. Middleware backend/CDN yang melayani /website.html harus memverifikasi sesi sah dan mengarahkan pengguna ke aplikasi masuk ketika sesi tidak sah, sebelum file dikirim. Gunakan session store dan kebijakan MFA yang sudah berlaku pada aplikasi. Cache respons privat harus diatur pada server, bukan hanya melalui meta HTML.
+Pastikan origin domain utama, origin API, cookie sesi lintas layanan, serta pemeriksaan rute project /website.html diterima oleh konfigurasi backend yang sudah ada. Paket tidak mengubah konfigurasi backend, DNS, atau cookie.
+Menu footer mengarah ke aplikasi lain yang telah dicantumkan pada referensi. URL tersebut dipertahankan/dibuat kanonis; keberadaan dan akses aktualnya belum diuji online.
+
+Pengujian yang disertakan adalah simulasi lokal, bukan audit keamanan server, uji penetrasi, atau bukti bahwa kontrol akses hosting telah aktif.
