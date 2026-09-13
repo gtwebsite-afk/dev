@@ -1,98 +1,78 @@
-# QA Report
+# QA REPORT
 
-This report distinguishes checks that were actually run from checks that were statically reviewed. It should be refreshed after any content or page addition.
+## Release scope
 
-## Static checks
+- Demo families discovered: **27**
+- HTML audited: **783**
+- Runtime/source files before release reports: **926**
+- Family HTML identified by CSS fingerprint: **759**
+- Showcase / compatibility / utility HTML: **24**
 
-| Check | Status | Method / evidence |
-|---|---|---|
-| Production source is self-contained | STATICALLY VERIFIED | No package manifest, build step, remote font, remote image, or third-party script is required by the project structure. |
-| Domain agnostic links | STATICALLY VERIFIED | Internal navigation is authored as relative paths; no production/preview origin is part of the design. |
-| No Lorem Ipsum or generic placeholder copy | STATICALLY VERIFIED | Source review of generated HTML/text; run `rg -n -i 'lorem ipsum|text goes here|product name|example title|your brand' --glob '*.html' --glob '*.js' --glob '*.css'`. |
-| Reduced motion | STATICALLY VERIFIED | Each site stylesheet is expected to include `prefers-reduced-motion: reduce`; verify with the command below. |
-| Legacy fingerprint scan | TESTED | See `LEGACY-FINGERPRINT-SCAN.txt`, generated from the current production tree. |
-| Missing asset paths | TESTED | Relative asset references are checked by the local scanner below. |
+## TESTED
 
-## Automated/static scanner
+| Gate | Result |
+|---|---|
+| `website.html` demo cards | **27/27 direct homepage targets exist**; DEMO 01–05 clickable-anchor regression corrected |
+| Local href/src/CSS-url crawl | **21,349 references checked; 0 missing targets** |
+| JavaScript syntax | **1,212 inline script references / 121 unique executable bodies; 0 syntax errors** |
+| Responsive homepage matrix | **27 × 15 widths = 405 viewport checks**, widths 320–1920; **0 horizontal overflow after fixes** |
+| Deep page QA | **135 representative pages** (homepage/404/form-or-interactive/detail/listing where available), mobile + desktop; no genuine runtime/overflow issue after isolated recheck |
+| Visual QA | **27 homepages × 4 viewports = 108 Chromium renders** at 390×844, 768×1024, 1440×900, 1920×1080; anti-AI/contact-sheet review completed |
+| Reduced motion | 522 pages with CSS animation; **0 animated page missing a meaningful `prefers-reduced-motion` rule** |
+| Focus-visible | **0 HTML page missing `:focus-visible` treatment** |
+| Duplicate IDs | **0** after the publication search ID correction |
+| Buttons without explicit type | **0** |
+| Form controls without accessible label | **0** in static semantic audit |
+| Images missing alt | **0** |
+| Local raster/SVG images missing intrinsic dimensions where resolvable | **0** |
+| Local external core CSS/JS references | **0** — core styles/scripts are embedded as required |
+| External runtime asset dependencies | **0**; four external Google Maps links are user-navigation anchors only |
+| `target="_blank"` without `noopener noreferrer` | **0** |
+| Duplicate title values | **0** |
+| Duplicate meta-description values | **0** |
+| Hardcoded legacy deployment host / DIRAC deployment host | **0** |
+| New executable loops | **0 introduced**; existing timers in the parent showcase were not expanded |
 
-From the project root:
+## Security verification
 
-```bash
-python3 - <<'PY'
-from pathlib import Path
-import re
-root=Path('.')
-files=[p for p in root.rglob('*') if p.is_file() and '.git' not in p.parts and p.suffix.lower() in {'.html','.css','.js'}]
-for p in files:
-    s=p.read_text(errors='ignore')
-    if re.search(r'https?://|//cdn|fonts\.googleapis|unpkg|jsdelivr', s, re.I):
-        print('REMOTE_REFERENCE', p)
-    if 'prefers-reduced-motion' not in s and p.suffix in {'.css','.html'}:
-        print('CHECK_REDUCED_MOTION', p)
-PY
-```
+The script block `dirac-security-boundary-20260905` in `website.html` was hashed before and after the upgrade. It remains **23,512 bytes** with identical SHA-256:
 
-A lightweight link/asset check can be run with:
+`567625747e3e2d861ea4462508809fca3da3926985a58aa2e7d1ad8a9073cbfc`
 
-```bash
-python3 - <<'PY'
-from pathlib import Path
-from urllib.parse import urlparse
-import re
-root=Path('.')
-for page in root.rglob('*.html'):
-    text=page.read_text(errors='ignore')
-    refs=re.findall(r'''(?:href|src)=["']([^"'#?]+)''', text, re.I)
-    for ref in refs:
-        if not ref or ref.startswith(('mailto:','tel:','data:','http:','https:','javascript:')): continue
-        target=(page.parent/ref).resolve()
-        if not target.exists(): print('MISSING', page, ref)
-PY
-```
+No guard bypass, `unsafe-inline` relaxation, new ENV, database table, external runtime library, `eval()` execution, `innerHTML` assignment, or `insertAdjacentHTML()` path was introduced. The only `eval(` match in a static text scan is a literal threat-token string inside the existing security boundary, not executable `eval` usage.
 
-## JavaScript behavior
+## Responsive fixes found by testing
 
-| Area | Status | Scope |
-|---|---|---|
-| Automotive model switcher/spec rail/compare/configurator | STATICALLY VERIFIED | Event handlers and namespaced state reviewed in project script. Browser interaction should be smoke-tested after final merge. |
-| Fashion gallery/size/variant/bag/wishlist | STATICALLY VERIFIED | Demo state only; no checkout or payment endpoint. |
-| Publication search/section/article reading tools | STATICALLY VERIFIED | Reading progress and article navigation are frontend-only. |
-| Festival day/stage schedule/favorites | STATICALLY VERIFIED | Favorites are local demo state; schedule has no external feed. |
-| Impact map/program/metrics/donation demo | STATICALLY VERIFIED | Donation is a validation/demo flow and never processes payment. |
-| Console errors and null references | NOT AVAILABLE | Requires browser execution; run a console smoke test in DevTools or Playwright. |
+1. DEMO 11 / ORVYN: mobile hero/ticker width overflow.
+2. DEMO 14 / Rute Baik: 320px metric grid overflow.
+3. DEMO 15 / Nawasena: invalid narrow-width `min()` expression causing 320px overflow.
+4. DEMO 21 / Meridian Air: five-column booking fields overflowing at 1024px.
 
-## Responsive and visual checks
+All four were fixed with family-local CSS only and the full 405-width matrix was rerun with zero overflow.
 
-Required viewport matrix: `320`, `360`, `375`, `390`, `414`, `768`, `1024`, `1280`, `1440`, and `1920` CSS px. At minimum, render each homepage plus one listing, one detail, one interactive/form page, and one 404 at `390×844`, `768×1024`, and `1440×900`.
+## SEO / semantics
 
-**Status:** NOT AVAILABLE in this environment unless a browser/Playwright runner is present. Before release, check horizontal overflow, clipping, focus order, crop behavior, sticky offsets, and mobile tap target sizes at each viewport.
+- Doctype, charset, viewport, page title, meta description, robots, canonical, OG metadata and Twitter summary metadata are present across all HTML after the pass.
+- Previously repeated meta descriptions were made page-specific; final duplicate title and description counts are zero.
+- Existing relevant JSON-LD was retained. No fake review, rating, award, certification or fabricated product-price schema was added.
+- Canonicals remain relative/domain-agnostic in source; no deployment hostname is pinned.
 
-## Accessibility checks
+## Performance notes
 
-**Status:** STATICALLY VERIFIED where source supports semantic landmarks, skip links, labels, focus-visible states, keyboard controls, descriptive alternatives, and reduced-motion rules. Automated contrast and keyboard traversal were NOT AVAILABLE here and require axe/Accessibility Inspector or equivalent.
+- Runtime files before reports: ~45.8 MiB; HTML ~35.0 MiB; image assets ~8.0 MiB.
+- The larger HTML footprint is an intentional consequence of the explicit **FULL HTML / embedded core CSS+JS** requirement. It removes core CSS/JS request dependencies and keeps each page portable.
+- Existing image formats/dimensions were preserved unless a safe metadata correction was possible. No visual asset was upscaled simply to inflate quality claims.
 
-## Known limitations
+## STATICALLY VERIFIED
 
-- The projects are frontend demos; backend writes, authentication, checkout, newsletter delivery, and donation payments are intentionally absent.
-- SVG artwork is original local demo art and can be replaced with production photography or brand assets later.
-- Browser-level visual, console, and contrast testing remains a release task when a browser runner is available.
+- All 783 HTML files parsed for semantic/metadata/link/asset checks.
+- Linux case-sensitive target resolution was used for local links/assets.
+- Domain-agnostic navigation and parent-showcase return links were inspected statically.
+- Structured-data blocks parse as JSON and contain no review/rating fabrication.
+- Core CSS/JS embedding order preserves existing end-of-body JS placement for DEMO 10–14.
 
-## Current inventory (13 September 2026)
+## NOT AVAILABLE / NOT CLAIMED
 
-| Project | Brand | HTML pages |
-|---|---|---:|
-| Automotive | KYNTRA | 24 |
-| Fashion | ORVYN | 26 |
-| Publication | Kabararus | 30 |
-| Festival | KILATARA | 24 |
-| Impact | RUTE BAIK | 28 |
+The environment blocks direct browser navigation to local HTTP/file URLs (`ERR_BLOCKED_BY_ADMINISTRATOR`). Chromium visual/runtime QA therefore used a controlled `set_content` harness with a routed local asset base. Opaque-origin-only `localStorage` / `new URL(location.href)` errors were separated from real errors and rechecked in isolated pages.
 
-Source fingerprint and legacy color scan: **TESTED — 0 MATCH** across production HTML, CSS, JS, and SVG files.
-
-Additional command-line checks run in the current tree:
-
-- **TESTED:** relative `href`/`src` references, 0 missing targets.
-- **TESTED:** JavaScript syntax with `node --check`, no syntax errors.
-- **TESTED:** title, meta description, and Open Graph title present on every generated HTML page.
-- **TESTED:** no remote CDN/font/image references found.
-- **TESTED:** local static-server smoke test (`python3 -m http.server`) fetched all 133 HTML files with HTTP 200.
+Firefox and WebKit browser runtimes were not available, so **full cross-browser execution is not claimed**. Native VoiceOver/TalkBack, real assistive-device testing, real-network Core Web Vitals/Lighthouse field data, and production server headers are likewise not claimed. These limitations are intentionally stated rather than converted into fictional pass results.
