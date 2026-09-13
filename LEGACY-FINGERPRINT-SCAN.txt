@@ -1,0 +1,38 @@
+LEGACY FINGERPRINT SCAN
+=======================
+
+Scope: production source files under this project, excluding this report and other QA documentation.
+Method: `rg` scan over HTML, CSS, JS, SVG, and asset filenames.
+
+Forbidden identifiers checked:
+DEV-DRC
+Dirac
+Multi Usaha
+M&M Interior
+ARUVA
+Nadiya
+Veyra
+Arcton
+Metrika
+EMBRA
+du-card
+du-stack
+du-copy
+du-arrow
+data-dirac
+
+Forbidden legacy color tokens checked:
+#050608 #f3cd70 #2454ec #38bdf8 #a54c32 #123e31 #306853 #243a2d #345544 #15394b #0f7777 #732833 #3155ff #d7ff55 #ff735f #4f1723 #762c3b
+
+The definitive scan is regenerated after all five site folders are present. Documentation is intentionally excluded from the production result so that this file can name the requested negative-reference terms without contaminating website source.
+
+CURRENT RUN (13 September 2026)
+--------------------------------
+Scope scanned: automotive/, fashion/, publication/, festival/, impact/ production HTML/CSS/JS/SVG currently present. Reports and README excluded.
+Result: 0 MATCH for every identifier and every legacy color token listed above.
+All five production folders were present for this run; impact/ is included.
+
+
+COMBINED PACKAGE NOTE
+----------------------
+The preserved `legacy-*` folders are the supplied existing collection and therefore intentionally retain its historical identifiers/assets. The new folders (`automotive/`, `fashion/`, `publication/`, `festival/`, `impact/`) and the new root catalogue were scanned separately and contain 0 matches for the requested legacy identifiers/colors.
