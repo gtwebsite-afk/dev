@@ -1,0 +1,9 @@
+(() => {
+  const q=(s,r=document)=>r.querySelector(s), qa=(s,r=document)=>[...r.querySelectorAll(s)];
+  const toggle=q('.nav-toggle'); if(toggle){toggle.addEventListener('click',()=>{const n=q('nav');n.classList.toggle('open');toggle.setAttribute('aria-expanded',n.classList.contains('open'));});}
+  const progress=q('.progress'); if(progress){addEventListener('scroll',()=>{const d=document.documentElement;progress.style.width=((scrollY/(d.scrollHeight-innerHeight))*100)+'%';},{passive:true});}
+  qa('[data-model]').forEach(b=>b.addEventListener('click',()=>{qa('[data-model]').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');const key=b.dataset.model;qa('[data-model-copy]').forEach(x=>x.hidden=x.dataset.modelCopy!==key);const t=q('[data-active-model]');if(t)t.textContent=key.toUpperCase();}));
+  const compare=q('#compare'); if(compare){const output=q('#compare-output'); const update=()=>{const a=q('#compare-a').value,b=q('#compare-b').value;output.textContent=`PERBANDINGAN / ${a} vs ${b} — pilih spesifikasi untuk membaca perbedaan karakter.`};qa('select',compare).forEach(s=>s.addEventListener('change',update));update();}
+  const config=q('#configurator'); if(config){const out=q('#config-output'); const update=()=>{const model=q('#config-model').value;const finish=q('#config-finish').value;const battery=q('#config-battery').value;out.textContent=`KONFIGURASI SIAP // ${model} / ${finish} / ${battery} kWh\nEstimasi performa akan disesuaikan setelah sesi konsultasi.`};qa('select',config).forEach(s=>s.addEventListener('change',update));update();}
+  qa('form[data-demo]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const m=q('.form-message',f);if(m){m.textContent='Permintaan tercatat untuk demo. Tim KYNTRA akan menghubungi Anda.';m.hidden=false;}}));
+})();
